@@ -1,5 +1,6 @@
 # Cheatsheet task list in Markdown
-
+- [ ] create a readme.md with a list of file,
+perhaps merge tasklist.md to readme.md
 - [x] hello world
 - [x] mathematical operators (7)
 - [ ] add += etc
