@@ -2,7 +2,7 @@
 
 - [x] hello world
 - [x] mathematical operators (7)
-- [] add += etc
+- [ ] add += etc
 - [x] function without return (just prints)
 - [x] function that returns a string
 - [x] function that takes a parameter
