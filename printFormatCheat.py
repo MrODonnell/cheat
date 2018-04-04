@@ -19,7 +19,6 @@ for x in range(1, 9):
     print('{0:5d} {1:5d} {2:5d}'.format(x, x*x, x*x*x))
 
 
-
 print('\n    #######  time example  #######')
 # here are several alternative examples for fomatting some numbers
 # note that the datetime module provides advanced ways to handle time
@@ -42,3 +41,13 @@ print("The average is: {0:0.2f}".format(average))
 # it will round; however rounding is very complicated and not always accurate
 another_average = 23.34999
 print("The average is: {0:0.2f}".format(another_average))
+
+
+# old style string formatting
+# not used for new code very often, but you will see it in legacy code
+# so it is a good idea to know what it is doing
+# that s stands for string
+
+name = "Juliette"
+print("Hello %s, how are you?" % name)
+
